@@ -3,6 +3,13 @@ Desarrollo de Front-End de una aplicación que permite gestionar eventos en form
 
 Este remake tiene como objetivo mostrar mis habilidades en el desarrollo Front-End.
 
+## Ejcutar proyecto
+- Clonar respositorio
+- pnpm install
+- pnpm install react-redux
+- pnpm install rxjs
+- pnpm dev
+
 ## Estado del proyecto
 En proceso
 
