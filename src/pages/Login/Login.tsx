@@ -43,60 +43,6 @@ const Login: React.FC = () => {
         </FormButton>
       </LoginForm>
 
-    // <div className="homepage" style={{ backgroundColor: '#121212', minHeight: '100vh' }}>
-    //   <section className="hero-section" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
-    //     <div className="hero-section__content" style={{ maxWidth: '800px', padding: '2rem', textAlign: 'center', backgroundColor: 'rgba(0, 0, 0, 0.8)', borderRadius: '1rem' }}>
-    //       <Box
-    //         component="form"
-    //         sx={{
-    //           '& .MuiTextField-root': {m: 1, width: '25ch' },
-    //         }}
-    //         noValidate
-    //         autoComplete="off"
-    //       >
-    //         <Typography variant="h5" sx={{ fontWeight: 700, letterSpacing: '.3rem', textDecoration: 'none', mb: 2, display: { xs: 'none', md: 'flex' } }}>
-    //           ¡Bienvenido! Ingresá tus credenciales
-    //         </Typography>
-
-    //         <Grid container spacing={2} justifyContent="center">
-    //           <Grid item xs={12} md={6}>
-    //             <TextField
-    //               required
-    //               id="filled-required"
-    //               label="Usuario"
-    //               autoComplete="current-password"
-    //               variant="filled"
-    //               value={email}
-    //               onChange={(e) => setEmail(e.target.value)}
-    //               sx={{ backgroundColor: '#fff', borderRadius: '1rem', width: '100%' }}
-    //             />
-    //           </Grid>
-
-    //           <Grid item xs={12} md={6}>
-    //             <TextField
-    //               required
-    //               id="filled-password-input"
-    //               label="Contraseña"
-    //               type="password"
-    //               autoComplete="current-password"
-    //               variant="filled"
-    //               value={password}
-    //               onChange={(e) => setPassword(e.target.value)}
-    //               sx={{ backgroundColor: '#fff', borderRadius: '1rem', width: '100%' }}
-    //             />
-    //           </Grid>
-
-    //           <Grid item xs={12}>
-
-    //             <FormButton>
-    //               Iniciar sesión
-    //             </FormButton>
-    //           </Grid>
-    //         </Grid>
-    //       </Box>
-    //     </div>
-    //   </section>
-    // </div>
 
   );
 };
